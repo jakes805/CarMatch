@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowLeft, Search, CheckCircle2, Send, CarFront, DollarSign, MapPin, ShieldCheck } from 'lucide-react'
+import { ArrowLeft, Search, CheckCircle2, Send, CarFront, DollarSign, MapPin } from 'lucide-react'
 
 interface SpecificCarProps {
   onNavigate: (page: string) => void
