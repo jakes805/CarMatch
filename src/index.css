@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.glass-card {
+  background-color: #0f172a; /* Dark Slate 900 */
+  border: 1px solid #1e293b; /* Slate 800 border */
+  color: #f8fafc; /* Slate 50 white default text */
+}
